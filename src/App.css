@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@800&family=Indie+Flower&display=swap");
+@font-face {
+  font-family: "Raleway-800";
+  src: url("../assets/fonts/Raleway-Black.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Raleway-700";
+  src: url("../assets/fonts/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Raleway-600";
+  src: url("../assets/fonts/Poppins-Medium.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Raleway-400";
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+.h-100vh {
+  height: 100dvh;
+}
+
+.mh-40 {
+  min-height: 40%;
+}
+
+.container {
+  transition: all 0.2s;
+}
+.container .card {
+  overflow: hidden;
+  border: none;
+  position: relative;
+  background-color: #f5efe6;
+}
+.container .card .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.container .card h1 {
+  font-family: "Briem Hand", cursive;
+  color: #7d0a0a;
+}
+.container .card p {
+  font-family: "Indie Flower", cursive;
+}
+.container .card p :first-child {
+  position: relative;
+  top: -9px;
+  left: -5px;
+}
+.container .card p :last-child {
+  position: relative;
+  top: -9px;
+  right: -5px;
+}
+.container .card span {
+  font-family: "Indie Flower", cursive;
+}
+.container .card button {
+  color: #7d0a0a;
+  background-color: transparent;
+  border: 1px solid #7d0a0a;
+}
+.container .card button:hover,
+.container .card button:active {
+  color: white;
+  background-color: #7d0a0a;
+  border: 1px solid transparent;
+} /*# sourceMappingURL=main.css.map */
